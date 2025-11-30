@@ -81,9 +81,6 @@ function nahodnyVek(min, max) {
   if (dtoIn.vekMin > dtoIn.vekMax) {
     throw new Error("vekMin nemôže byť väčší ako vekMax")
   }
-  if (dtoIn.vekMax < dtoIn.vekMin) {
-    throw new Error("vekMax nemôže byť menší ako vekMin")
-  }
 
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
