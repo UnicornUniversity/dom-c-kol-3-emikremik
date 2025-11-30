@@ -131,5 +131,3 @@ function main(dtoIn) {
 
 // test 
 const dtoIn = { count: 50, vekMin: 19, vekMax: 35 };
-
-
